@@ -1,138 +1,227 @@
-@font-face {
-   font-family: 'Neutratext Demi';
-   src: url('/path-to-your-fonts/NeutratextDemi.woff2') format('woff2'),
-        url('/path-to-your-fonts/NeutratextDemi.woff') format('woff');
-   font-weight: 600;
-   font-style: normal;
- }
- 
- body {
-   font-family: 'Neutratext Demi', sans-serif;
-   background: transparent !important;
-   color: #0c0a0a;
-   text-transform: none;
- }
- 
- .iframe-container form label {
-   display: block;
-   color: #0c0a0a;
-   font-size: 14px;
-   font-weight: 600;
-   font-family: 'Neutratext Demi', sans-serif;
-   text-transform: uppercase;
- }
- 
- .iframe-container form input,
- .ecrm-registration-div select,
- .ecrm-profile-div input,
- .ecrm-login-div input,
- .ecrm-password-reset-div input {
-   background-color: transparent;
-   border: 1px solid #0c0a0a;
-   color: #0c0a0a;
-   font-family: 'Neutratext Demi', sans-serif;
-   font-size: 14px;
-   text-transform: none;
-   padding: 5px 8px;
-   margin-bottom: 12px;
- }
- 
- .iframe-container form input::placeholder {
-   color: #0c0a0a;
-   font-weight: 400;
- }
- 
- .iframe-container form .submit-div input,
- .ecrm-login-div input[type="submit"],
- .ecrm-password-reset-div input[type="submit"] {
-   background-color: #e7aa30 !important;
-   border: 1px solid #0c0a0a;
-   border-radius: 10px;
-   color: #0c0a0a !important;
-   font-family: 'Neutratext Demi', sans-serif;
-   font-size: 16px;
-   font-weight: 700;
-   text-transform: uppercase;
-   width: 100%;
-   padding: 10px;
-   cursor: pointer;
- }
- 
- .iframe-container form .submit-div input:hover,
- .ecrm-login-div input[type="submit"]:hover,
- .ecrm-password-reset-div input[type="submit"]:hover {
-   background-color: #db6137 !important;
-   color: #ffffff !important;
- }
- 
- .iframe-container form .hint-div,
- .ecrm-registration-div .hint,
- .ecrm-profile-div .hint,
- .ecrm-password-reset-div .hint {
-   font-style: italic;
-   font-size: 11px;
-   color: #0c0a0a;
-   text-transform: none;
- }
- 
- .ecrm-facebook-btn {
-   background-color: #e7aa30 !important;
-   color: #0c0a0a !important;
-   border: 1px solid #0c0a0a;
-   border-radius: 10px;
-   font-family: 'Neutratext Demi', sans-serif;
-   font-size: 14px;
-   font-weight: bold;
-   text-transform: uppercase;
-   padding: 10px;
-   cursor: pointer;
-   width: 100%;
- }
- 
- .ecrm-facebook-btn:hover {
-   background-color: #db6137 !important;
-   color: #ffffff !important;
- }
- 
- .ecrm-dashboard-div {
-   font-family: 'Neutratext Demi', sans-serif;
-   color: #0c0a0a;
-   background-color: #ffffff;
- }
- 
- .ecrm-dashboard-div h1,
- .ecrm-dashboard-div h2,
- .ecrm-dashboard-div h3,
- .ecrm-dashboard-div h4 {
-   text-transform: uppercase;
-   color: #0c0a0a;
-   font-family: 'Neutratext Demi', sans-serif;
- }
- 
- .ecrm-dashboard-div p,
- .ecrm-dashboard-div span,
- .ecrm-dashboard-div li {
-   text-transform: none;
-   color: #0c0a0a;
-   font-family: 'Neutratext Demi', sans-serif;
- }
- 
- .ecrm-profile-div input[type="submit"],
- .ecrm-dashboard-div button {
-   background-color: #e7aa30;
-   color: #0c0a0a;
-   border: 1px solid #0c0a0a;
-   border-radius: 10px;
-   font-family: 'Neutratext Demi', sans-serif;
-   font-size: 14px;
-   font-weight: bold;
-   text-transform: uppercase;
-   padding: 10px;
-   cursor: pointer;
- }
- 
- .ecrm-profile-div input[type="submit"]:hover,
- .ecrm-dashboard-div button:hover {
-   background-color: #db6137;
-   color: #ffffff;
- }
+/* iframe-style.css */
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,300,700');
+
+body, body a {
+
+    color: #414141;
+
+}
+
+body {
+
+    font-family: Oswald, sans-serif !important;
+
+    height: 100%;
+
+    background: url("https://cdn.punchh.com/white-label-basic-images/overlay-bg.jpg") center center/cover no-repeat fixed;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+}
+
+body a:hover {
+
+    color: #c55330;
+
+}
+
+.navbar-div .popup {
+
+    color: #900027;
+
+}
+
+.navbar-div span+span:before {
+
+    color: #929292;
+
+    background-color: #e7ebeb;
+
+}
+
+.seprator .or-text {
+
+    background-color: #e7ebeb;
+
+    color: #929292;
+
+}
+
+.forgot-div a:hover:before, .info-div a:hover:before, .signup-form form a:hover:before {
+
+    background-color: #c55330;
+
+}
+
+.iframe-container form .btn-submit:hover, .iframe-container form .submit-div input:hover {
+
+    background-color: #c55330;
+
+}
+
+.facebook-label {
+
+    background-color: #edf2f2;
+
+    border: 2px solid #a3a3a3;
+
+    color: #a3a3a3;
+
+}
+
+.btn-fb a, .facebook-link a, .google-sign_in-link {
+
+    background-color: #436c99;
+
+    color: #fff;
+
+}
+
+.google-sign_in-link:hover {
+
+    color: #c55330 !important;
+
+}
+
+.alert-message {
+
+    color: #c55330;
+
+}
+
+.user-dahboard .iframe-container {
+
+    background-color: #fafafa;
+
+}
+
+.user-dahboard .iframe-header .navbar-div span.signout-link a {
+
+    background-color: #c55330;
+
+    color: #fff;
+
+}
+
+.text-link {
+
+    color: #0087d9 !important;
+
+}
+
+.text-link::before {
+
+    background: #8bbced !important;
+
+}
+
+/* application_iframe_redemptions.css */
+
+.redemption-form .form-check {
+
+    border: 1px solid #dee2e6;
+
+}
+
+.redemption-form .text-muted {
+
+    color: #6c757d !important;
+
+}
+
+.redemption-form .text-bold {
+
+    font-weight: 700 !important;
+
+}
+
+.btn-view-more {
+
+    line-height: 1.5 !important;
+
+}
+
+.locked-redeemables .locked_redeemables_container {
+
+    max-height: 430px;
+
+    overflow-y: hidden;
+
+    overflow-x: auto;
+
+}
+
+.locked-redeemables.view_more_container .locked_redeemables_container {
+
+    max-height: unset;
+
+    overflow-y: scroll;
+
+    overflow-x: auto;
+
+}
+
+.margin-top-20 {
+
+    margin-top: 20px !important;
+
+}
+
+.w-100 {
+
+    width: 100%;
+
+}
+
+.redeemable-div select {
+
+    width: 100%;
+
+    height: 30px;
+
+}
+
+.d-flex {
+
+    display: flex;
+
+}
+
+.location-div > div.d-flex {
+
+    margin-top: 15px;
+
+    margin-bottom: 5px;
+
+}
+
+.location_redeem select, .checkin-div select {
+
+    width: calc(100% - 12px);
+
+    height: 30px;
+
+}
+
+.redemption-div .location-select {
+
+    margin-top: 15px;
+
+}
+
+.redemption-div .location-select label {
+
+    display: inline-block;
+
+}
+
+.redemption-div .location_redeem {
+
+    margin-bottom: 20px;
+
+}
